@@ -1,17 +1,11 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
     - name: nazuna293
       url-base: https://github.com/nazuna293
   projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: v0.2.1
-      import: app/west.yml
     - name: zmk-keyboard-Enigma_03
       remote: nazuna293
-      revision: main
+      revision: v1.0
       import: config/west.yml
   self:
     path: config
